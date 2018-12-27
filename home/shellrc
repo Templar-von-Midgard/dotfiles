@@ -1,0 +1,5 @@
+SHELLRCD=$HOME/.dotfiles/shellrc.d
+
+for file in $SHELLRCD/*; do
+  source $file
+done
