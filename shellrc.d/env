@@ -5,3 +5,6 @@ if [ -n "$SSH_CONNECTION" ]; then
 else
   export EDITOR=subl
 fi
+
+# For Android sdkmanager:
+export SDKMANAGER_OPTS="--add-modules java.xml.bind"
