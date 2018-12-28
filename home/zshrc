@@ -73,7 +73,9 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=(
   dirhistory
   wd
+  zsh-completions
 )
+autoload -U compinit && compinit
 
 source $ZSH/oh-my-zsh.sh
 
