@@ -7,6 +7,11 @@ ln -s $PWD/zsh-completions oh-my-zsh/custom/plugins/zsh-completions
 ln -s $PWD/home/shellrc $HOME/.shellrc
 ln -s $PWD/home/zshrc $HOME/.zshrc
 
+ln -s $PWD/packages/QtProject/qtcreator/styles/SublimeMaterial.xml $HOME/.config/QtProject/qtcreator/styles/SublimeMaterial.xml
+ln -s $PWD/packages/QtProject/qtcreator/styles/SublimeMaterialLight.xml $HOME/.config/QtProject/qtcreator/styles/SublimeMaterialLight.xml
+
 for pkg in $PWD/packages/*; do
-  bash $pkg/install.sh
+  if [ -f $pkg/install.sh ]; then
+    bash $pkg/install.sh
+  fi
 done
