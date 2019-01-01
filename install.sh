@@ -15,3 +15,5 @@ for pkg in $PWD/packages/*; do
     bash $pkg/install.sh
   fi
 done
+
+git config --global alias.history "log --date=short --pretty=format:'%Cblue%ad%C(auto) |%d %s [%Cred%an (%ae)%C(auto)] (%H)' --first-parent"
