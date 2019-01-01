@@ -1,4 +1,4 @@
-export NINJA_STATUS='[%f/%t %o/s] (%e s)'
+export NINJA_STATUS='[%f/%t %o/s] (%e s) '
 
 if [ -n "$SSH_CONNECTION" ]; then
   export EDITOR=nano
