@@ -75,9 +75,9 @@ plugins=(
   wd
   zsh-completions
 )
-autoload -U compinit && compinit
 
 source $ZSH/oh-my-zsh.sh
+autoload -U compinit && compinit
 
 # User configuration
 
