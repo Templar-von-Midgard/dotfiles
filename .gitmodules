@@ -10,3 +10,6 @@
 [submodule "sublimematerial"]
 	path = sublimematerial
 	url = https://github.com/foxoman/sublimematerial.git
+[submodule "zsh-syntax-highlighting"]
+	path = zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
